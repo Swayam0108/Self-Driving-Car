@@ -1,0 +1,6 @@
+conda create -n sdcar python=3.7 -y
+conda activate sdcar
+pip install -r requirements.txt
+pip install python-engineio==3.13.2
+pip install python-socketio==4.6.1
+python drive.py
